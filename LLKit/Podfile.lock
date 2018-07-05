@@ -1,0 +1,24 @@
+PODS:
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - IGListKit (~> 3.4.0)
+  - YYModel (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IGListKit
+    - YYModel
+
+SPEC CHECKSUMS:
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 188edb1822a2d7a03237a8c8cdb5ab92048f57a4
+
+COCOAPODS: 1.5.0

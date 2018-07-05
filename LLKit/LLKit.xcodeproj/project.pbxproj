@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69FA88F65A510AD2974E7311 /* libPods-LLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10153713A70B2F6BFF3253AD /* libPods-LLKit.a */; };
+		6BBE1DE420EDC4C30047BDC7 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE1DE320EDC4C30047BDC7 /* home.json */; };
 		9EF7BC8D20EBC02700C08DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BC8C20EBC02700C08DB0 /* AppDelegate.m */; };
 		9EF7BC9020EBC02700C08DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BC8F20EBC02700C08DB0 /* ViewController.m */; };
 		9EF7BC9320EBC02700C08DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF7BC9120EBC02700C08DB0 /* Main.storyboard */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		019B1158CA2515AEB6B65FEF /* Pods-LLKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLKit/Pods-LLKit.debug.xcconfig"; sourceTree = "<group>"; };
+		0D78089E50264B11CC979A20 /* Pods-LLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLKit/Pods-LLKit.release.xcconfig"; sourceTree = "<group>"; };
+		10153713A70B2F6BFF3253AD /* libPods-LLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBE1DE320EDC4C30047BDC7 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
 		9EF7BC8820EBC02700C08DB0 /* LLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF7BC8B20EBC02700C08DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EF7BC8C20EBC02700C08DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,17 +48,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FA88F65A510AD2974E7311 /* libPods-LLKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E8E54E6C6382B5D822A5FD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				019B1158CA2515AEB6B65FEF /* Pods-LLKit.debug.xcconfig */,
+				0D78089E50264B11CC979A20 /* Pods-LLKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6BBE1DE120EDC4730047BDC7 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE1DE320EDC4C30047BDC7 /* home.json */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		6BBE1DE220EDC4830047BDC7 /* LLKit */ = {
+			isa = PBXGroup;
+			children = (
+				9EF7BCA420EBC24B00C08DB0 /* Category */,
+			);
+			path = LLKit;
+			sourceTree = "<group>";
+		};
 		9EF7BC7F20EBC02700C08DB0 = {
 			isa = PBXGroup;
 			children = (
 				9EF7BC8A20EBC02700C08DB0 /* LLKit */,
 				9EF7BC8920EBC02700C08DB0 /* Products */,
+				1E8E54E6C6382B5D822A5FD5 /* Pods */,
+				F7AFD0B430E8FA5CEDEE3DCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,7 +101,8 @@
 		9EF7BC8A20EBC02700C08DB0 /* LLKit */ = {
 			isa = PBXGroup;
 			children = (
-				9EF7BCA420EBC24B00C08DB0 /* Category */,
+				6BBE1DE220EDC4830047BDC7 /* LLKit */,
+				6BBE1DE120EDC4730047BDC7 /* Demo */,
 				9EF7BC8B20EBC02700C08DB0 /* AppDelegate.h */,
 				9EF7BC8C20EBC02700C08DB0 /* AppDelegate.m */,
 				9EF7BC8E20EBC02700C08DB0 /* ViewController.h */,
@@ -94,6 +129,14 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		F7AFD0B430E8FA5CEDEE3DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10153713A70B2F6BFF3253AD /* libPods-LLKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EF7BC9E20EBC02C00C08DB0 /* Build configuration list for PBXNativeTarget "LLKit" */;
 			buildPhases = (
+				3574D0D459097D1DBC864DED /* [CP] Check Pods Manifest.lock */,
 				9EF7BC8420EBC02700C08DB0 /* Sources */,
 				9EF7BC8520EBC02700C08DB0 /* Frameworks */,
 				9EF7BC8620EBC02700C08DB0 /* Resources */,
@@ -153,11 +197,33 @@
 			files = (
 				9EF7BC9820EBC02C00C08DB0 /* LaunchScreen.storyboard in Resources */,
 				9EF7BC9520EBC02C00C08DB0 /* Assets.xcassets in Resources */,
+				6BBE1DE420EDC4C30047BDC7 /* home.json in Resources */,
 				9EF7BC9320EBC02700C08DB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3574D0D459097D1DBC864DED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EF7BC8420EBC02700C08DB0 /* Sources */ = {
@@ -307,11 +373,13 @@
 		};
 		9EF7BC9F20EBC02C00C08DB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 019B1158CA2515AEB6B65FEF /* Pods-LLKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4UL5C53R3;
 				INFOPLIST_FILE = LLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,11 +392,13 @@
 		};
 		9EF7BCA020EBC02C00C08DB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D78089E50264B11CC979A20 /* Pods-LLKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y4UL5C53R3;
 				INFOPLIST_FILE = LLKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
