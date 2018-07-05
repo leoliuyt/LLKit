@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		69FA88F65A510AD2974E7311 /* libPods-LLKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10153713A70B2F6BFF3253AD /* libPods-LLKit.a */; };
 		6BBE1DE420EDC4C30047BDC7 /* home.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BBE1DE320EDC4C30047BDC7 /* home.json */; };
+		6BBE1DE820EDED610047BDC7 /* DMIGListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1DE720EDED610047BDC7 /* DMIGListViewController.m */; };
+		6BBE1DEB20EDF0040047BDC7 /* DMNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1DEA20EDF0040047BDC7 /* DMNewsModel.m */; };
+		6BBE1DEF20EDF05B0047BDC7 /* DMTheaterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1DEE20EDF05B0047BDC7 /* DMTheaterModel.m */; };
+		6BBE1DF220EDF0A20047BDC7 /* DMRepertoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1DF120EDF0A20047BDC7 /* DMRepertoryModel.m */; };
+		6BBE1DF820EDF12C0047BDC7 /* DMAdvertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1DF720EDF12C0047BDC7 /* DMAdvertModel.m */; };
+		6BBE1DFB20EDF2690047BDC7 /* NSObject+YYModelExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1DFA20EDF2690047BDC7 /* NSObject+YYModelExtension.m */; };
+		6BBE1DFE20EDF2AC0047BDC7 /* DMTalentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1DFD20EDF2AC0047BDC7 /* DMTalentModel.m */; };
+		6BBE1E0120EDF2B80047BDC7 /* DMEnrollModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1E0020EDF2B80047BDC7 /* DMEnrollModel.m */; };
+		6BBE1E0420EDF2C50047BDC7 /* DMBannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBE1E0320EDF2C50047BDC7 /* DMBannerModel.m */; };
 		9EF7BC8D20EBC02700C08DB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BC8C20EBC02700C08DB0 /* AppDelegate.m */; };
 		9EF7BC9020EBC02700C08DB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BC8F20EBC02700C08DB0 /* ViewController.m */; };
 		9EF7BC9320EBC02700C08DB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EF7BC9120EBC02700C08DB0 /* Main.storyboard */; };
@@ -25,6 +34,24 @@
 		0D78089E50264B11CC979A20 /* Pods-LLKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLKit/Pods-LLKit.release.xcconfig"; sourceTree = "<group>"; };
 		10153713A70B2F6BFF3253AD /* libPods-LLKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBE1DE320EDC4C30047BDC7 /* home.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = home.json; sourceTree = "<group>"; };
+		6BBE1DE620EDED610047BDC7 /* DMIGListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMIGListViewController.h; sourceTree = "<group>"; };
+		6BBE1DE720EDED610047BDC7 /* DMIGListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMIGListViewController.m; sourceTree = "<group>"; };
+		6BBE1DE920EDF0040047BDC7 /* DMNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNewsModel.h; sourceTree = "<group>"; };
+		6BBE1DEA20EDF0040047BDC7 /* DMNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNewsModel.m; sourceTree = "<group>"; };
+		6BBE1DED20EDF05B0047BDC7 /* DMTheaterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMTheaterModel.h; sourceTree = "<group>"; };
+		6BBE1DEE20EDF05B0047BDC7 /* DMTheaterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMTheaterModel.m; sourceTree = "<group>"; };
+		6BBE1DF020EDF0A20047BDC7 /* DMRepertoryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMRepertoryModel.h; sourceTree = "<group>"; };
+		6BBE1DF120EDF0A20047BDC7 /* DMRepertoryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMRepertoryModel.m; sourceTree = "<group>"; };
+		6BBE1DF620EDF12C0047BDC7 /* DMAdvertModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMAdvertModel.h; sourceTree = "<group>"; };
+		6BBE1DF720EDF12C0047BDC7 /* DMAdvertModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMAdvertModel.m; sourceTree = "<group>"; };
+		6BBE1DF920EDF2690047BDC7 /* NSObject+YYModelExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModelExtension.h"; sourceTree = "<group>"; };
+		6BBE1DFA20EDF2690047BDC7 /* NSObject+YYModelExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModelExtension.m"; sourceTree = "<group>"; };
+		6BBE1DFC20EDF2AC0047BDC7 /* DMTalentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMTalentModel.h; sourceTree = "<group>"; };
+		6BBE1DFD20EDF2AC0047BDC7 /* DMTalentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMTalentModel.m; sourceTree = "<group>"; };
+		6BBE1DFF20EDF2B80047BDC7 /* DMEnrollModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMEnrollModel.h; sourceTree = "<group>"; };
+		6BBE1E0020EDF2B80047BDC7 /* DMEnrollModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMEnrollModel.m; sourceTree = "<group>"; };
+		6BBE1E0220EDF2C50047BDC7 /* DMBannerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBannerModel.h; sourceTree = "<group>"; };
+		6BBE1E0320EDF2C50047BDC7 /* DMBannerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMBannerModel.m; sourceTree = "<group>"; };
 		9EF7BC8820EBC02700C08DB0 /* LLKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EF7BC8B20EBC02700C08DB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EF7BC8C20EBC02700C08DB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +94,7 @@
 		6BBE1DE120EDC4730047BDC7 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				6BBE1DE520EDECB40047BDC7 /* IGListKit */,
 				6BBE1DE320EDC4C30047BDC7 /* home.json */,
 			);
 			path = Demo;
@@ -78,6 +106,39 @@
 				9EF7BCA420EBC24B00C08DB0 /* Category */,
 			);
 			path = LLKit;
+			sourceTree = "<group>";
+		};
+		6BBE1DE520EDECB40047BDC7 /* IGListKit */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE1DE620EDED610047BDC7 /* DMIGListViewController.h */,
+				6BBE1DE720EDED610047BDC7 /* DMIGListViewController.m */,
+				6BBE1DEC20EDF0160047BDC7 /* Model */,
+			);
+			path = IGListKit;
+			sourceTree = "<group>";
+		};
+		6BBE1DEC20EDF0160047BDC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BBE1DF920EDF2690047BDC7 /* NSObject+YYModelExtension.h */,
+				6BBE1DFA20EDF2690047BDC7 /* NSObject+YYModelExtension.m */,
+				6BBE1DE920EDF0040047BDC7 /* DMNewsModel.h */,
+				6BBE1DEA20EDF0040047BDC7 /* DMNewsModel.m */,
+				6BBE1DED20EDF05B0047BDC7 /* DMTheaterModel.h */,
+				6BBE1DEE20EDF05B0047BDC7 /* DMTheaterModel.m */,
+				6BBE1DF020EDF0A20047BDC7 /* DMRepertoryModel.h */,
+				6BBE1DF120EDF0A20047BDC7 /* DMRepertoryModel.m */,
+				6BBE1DF620EDF12C0047BDC7 /* DMAdvertModel.h */,
+				6BBE1DF720EDF12C0047BDC7 /* DMAdvertModel.m */,
+				6BBE1DFC20EDF2AC0047BDC7 /* DMTalentModel.h */,
+				6BBE1DFD20EDF2AC0047BDC7 /* DMTalentModel.m */,
+				6BBE1DFF20EDF2B80047BDC7 /* DMEnrollModel.h */,
+				6BBE1E0020EDF2B80047BDC7 /* DMEnrollModel.m */,
+				6BBE1E0220EDF2C50047BDC7 /* DMBannerModel.h */,
+				6BBE1E0320EDF2C50047BDC7 /* DMBannerModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		9EF7BC7F20EBC02700C08DB0 = {
@@ -231,11 +292,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EF7BCAA20EBC58600C08DB0 /* NSMutableAttributedString+LL.m in Sources */,
+				6BBE1DFB20EDF2690047BDC7 /* NSObject+YYModelExtension.m in Sources */,
+				6BBE1DFE20EDF2AC0047BDC7 /* DMTalentModel.m in Sources */,
+				6BBE1DF220EDF0A20047BDC7 /* DMRepertoryModel.m in Sources */,
+				6BBE1E0420EDF2C50047BDC7 /* DMBannerModel.m in Sources */,
+				6BBE1E0120EDF2B80047BDC7 /* DMEnrollModel.m in Sources */,
+				6BBE1DF820EDF12C0047BDC7 /* DMAdvertModel.m in Sources */,
 				9EF7BC9020EBC02700C08DB0 /* ViewController.m in Sources */,
+				6BBE1DEF20EDF05B0047BDC7 /* DMTheaterModel.m in Sources */,
 				9EF7BCA320EBC23D00C08DB0 /* UIButton+LL.m in Sources */,
 				9EF7BC9B20EBC02C00C08DB0 /* main.m in Sources */,
 				9EF7BC8D20EBC02700C08DB0 /* AppDelegate.m in Sources */,
+				6BBE1DE820EDED610047BDC7 /* DMIGListViewController.m in Sources */,
 				9EF7BCA920EBC58600C08DB0 /* NSMutableDictionary+LL.m in Sources */,
+				6BBE1DEB20EDF0040047BDC7 /* DMNewsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
