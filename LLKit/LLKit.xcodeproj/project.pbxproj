@@ -27,6 +27,8 @@
 		9EF7BCA320EBC23D00C08DB0 /* UIButton+LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCA220EBC23D00C08DB0 /* UIButton+LL.m */; };
 		9EF7BCA920EBC58600C08DB0 /* NSMutableDictionary+LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCA620EBC58600C08DB0 /* NSMutableDictionary+LL.m */; };
 		9EF7BCAA20EBC58600C08DB0 /* NSMutableAttributedString+LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCA720EBC58600C08DB0 /* NSMutableAttributedString+LL.m */; };
+		9EF7BCAE20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCAC20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m */; };
+		9EF7BCAF20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF7BCAD20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,9 @@
 		9EF7BCA620EBC58600C08DB0 /* NSMutableDictionary+LL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+LL.m"; sourceTree = "<group>"; };
 		9EF7BCA720EBC58600C08DB0 /* NSMutableAttributedString+LL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LL.m"; sourceTree = "<group>"; };
 		9EF7BCA820EBC58600C08DB0 /* NSMutableDictionary+LL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+LL.h"; sourceTree = "<group>"; };
+		9EF7BCAB20EE5A6700C08DB0 /* DMBannerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBannerCollectionViewCell.h; sourceTree = "<group>"; };
+		9EF7BCAC20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMBannerCollectionViewCell.m; sourceTree = "<group>"; };
+		9EF7BCAD20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMBannerCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +118,9 @@
 			children = (
 				6BBE1DE620EDED610047BDC7 /* DMIGListViewController.h */,
 				6BBE1DE720EDED610047BDC7 /* DMIGListViewController.m */,
+				9EF7BCAB20EE5A6700C08DB0 /* DMBannerCollectionViewCell.h */,
+				9EF7BCAC20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m */,
+				9EF7BCAD20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib */,
 				6BBE1DEC20EDF0160047BDC7 /* Model */,
 			);
 			path = IGListKit;
@@ -259,6 +267,7 @@
 				9EF7BC9820EBC02C00C08DB0 /* LaunchScreen.storyboard in Resources */,
 				9EF7BC9520EBC02C00C08DB0 /* Assets.xcassets in Resources */,
 				6BBE1DE420EDC4C30047BDC7 /* home.json in Resources */,
+				9EF7BCAF20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib in Resources */,
 				9EF7BC9320EBC02700C08DB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +305,7 @@
 				6BBE1DFE20EDF2AC0047BDC7 /* DMTalentModel.m in Sources */,
 				6BBE1DF220EDF0A20047BDC7 /* DMRepertoryModel.m in Sources */,
 				6BBE1E0420EDF2C50047BDC7 /* DMBannerModel.m in Sources */,
+				9EF7BCAE20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m in Sources */,
 				6BBE1E0120EDF2B80047BDC7 /* DMEnrollModel.m in Sources */,
 				6BBE1DF820EDF12C0047BDC7 /* DMAdvertModel.m in Sources */,
 				9EF7BC9020EBC02700C08DB0 /* ViewController.m in Sources */,

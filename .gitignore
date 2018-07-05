@@ -65,3 +65,4 @@ IDEWorkspaceChecks.plist
 *.xcworkspacedata
 contents.xcworkspacedata
 Pods
+.DS_Store
