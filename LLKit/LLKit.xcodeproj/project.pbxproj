@@ -29,9 +29,6 @@
 		9EF7BCAA20EBC58600C08DB0 /* NSMutableAttributedString+LL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCA720EBC58600C08DB0 /* NSMutableAttributedString+LL.m */; };
 		9EF7BCAE20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCAC20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m */; };
 		9EF7BCAF20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EF7BCAD20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib */; };
-		9EF7BCB220F1009300C08DB0 /* LLTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCB120F1009300C08DB0 /* LLTableViewModel.m */; };
-		9EF7BCB620F2367F00C08DB0 /* NSObject+LLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCB520F2367F00C08DB0 /* NSObject+LLTableView.m */; };
-		9EF7BCBC20F2541D00C08DB0 /* LLBindCellOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCBB20F2541D00C08DB0 /* LLBindCellOption.m */; };
 		9EF7BCC020F25C4200C08DB0 /* DMNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF7BCBF20F25C4200C08DB0 /* DMNewsCell.m */; };
 /* End PBXBuildFile section */
 
@@ -77,12 +74,6 @@
 		9EF7BCAB20EE5A6700C08DB0 /* DMBannerCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBannerCollectionViewCell.h; sourceTree = "<group>"; };
 		9EF7BCAC20EE5A6700C08DB0 /* DMBannerCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMBannerCollectionViewCell.m; sourceTree = "<group>"; };
 		9EF7BCAD20EE5A6700C08DB0 /* DMBannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DMBannerCollectionViewCell.xib; sourceTree = "<group>"; };
-		9EF7BCB020F1009300C08DB0 /* LLTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTableViewModel.h; sourceTree = "<group>"; };
-		9EF7BCB120F1009300C08DB0 /* LLTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTableViewModel.m; sourceTree = "<group>"; };
-		9EF7BCB420F2367F00C08DB0 /* NSObject+LLTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+LLTableView.h"; sourceTree = "<group>"; };
-		9EF7BCB520F2367F00C08DB0 /* NSObject+LLTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LLTableView.m"; sourceTree = "<group>"; };
-		9EF7BCBA20F2541D00C08DB0 /* LLBindCellOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLBindCellOption.h; sourceTree = "<group>"; };
-		9EF7BCBB20F2541D00C08DB0 /* LLBindCellOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLBindCellOption.m; sourceTree = "<group>"; };
 		9EF7BCBE20F25C4200C08DB0 /* DMNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMNewsCell.h; sourceTree = "<group>"; };
 		9EF7BCBF20F25C4200C08DB0 /* DMNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMNewsCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				9EF7BCA420EBC24B00C08DB0 /* Category */,
-				9EF7BCB320F1009900C08DB0 /* LLTable */,
 			);
 			path = LLKit;
 			sourceTree = "<group>";
@@ -210,19 +200,6 @@
 				9EF7BCA220EBC23D00C08DB0 /* UIButton+LL.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		9EF7BCB320F1009900C08DB0 /* LLTable */ = {
-			isa = PBXGroup;
-			children = (
-				9EF7BCB020F1009300C08DB0 /* LLTableViewModel.h */,
-				9EF7BCB120F1009300C08DB0 /* LLTableViewModel.m */,
-				9EF7BCBA20F2541D00C08DB0 /* LLBindCellOption.h */,
-				9EF7BCBB20F2541D00C08DB0 /* LLBindCellOption.m */,
-				9EF7BCB420F2367F00C08DB0 /* NSObject+LLTableView.h */,
-				9EF7BCB520F2367F00C08DB0 /* NSObject+LLTableView.m */,
-			);
-			path = LLTable;
 			sourceTree = "<group>";
 		};
 		9EF7BCBD20F25C2400C08DB0 /* Cell */ = {
@@ -349,11 +326,8 @@
 				6BBE1DEF20EDF05B0047BDC7 /* DMTheaterModel.m in Sources */,
 				9EF7BCA320EBC23D00C08DB0 /* UIButton+LL.m in Sources */,
 				9EF7BC9B20EBC02C00C08DB0 /* main.m in Sources */,
-				9EF7BCB220F1009300C08DB0 /* LLTableViewModel.m in Sources */,
 				9EF7BC8D20EBC02700C08DB0 /* AppDelegate.m in Sources */,
-				9EF7BCBC20F2541D00C08DB0 /* LLBindCellOption.m in Sources */,
 				6BBE1DE820EDED610047BDC7 /* DMIGListViewController.m in Sources */,
-				9EF7BCB620F2367F00C08DB0 /* NSObject+LLTableView.m in Sources */,
 				9EF7BCA920EBC58600C08DB0 /* NSMutableDictionary+LL.m in Sources */,
 				6BBE1DEB20EDF0040047BDC7 /* DMNewsModel.m in Sources */,
 			);
